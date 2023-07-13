@@ -48,6 +48,7 @@ public class CacheConfiguration {
             createCache(cm, com.roadmap.myapp.domain.User.class.getName());
             createCache(cm, com.roadmap.myapp.domain.Authority.class.getName());
             createCache(cm, com.roadmap.myapp.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.roadmap.myapp.domain.Contato.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

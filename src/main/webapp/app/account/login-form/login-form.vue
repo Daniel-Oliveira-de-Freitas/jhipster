@@ -8,25 +8,23 @@
       </div>
       <div class="col-md-8">
         <b-form role="form" v-on:submit.prevent="doLogin()">
-          <b-form-group label="Username" label="Usuário" label-for="username">
+          <b-form-group label="Username" label-for="username">
             <b-form-input
               id="username"
               type="text"
               name="username"
               autofocus
-              placeholder="Seu usuário"
               placeholder="Your username"
               v-model="login"
               data-cy="username"
             >
             </b-form-input>
           </b-form-group>
-          <b-form-group label="Password" label="Senha" label-for="password">
+          <b-form-group label="Password" label-for="password">
             <b-form-input
               id="password"
               type="password"
               name="password"
-              placeholder="Sua senha"
               placeholder="Your password"
               v-model="password"
               data-cy="password"
